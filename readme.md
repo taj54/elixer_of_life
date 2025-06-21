@@ -111,10 +111,8 @@ readme.md
    ```
 
 3. **Set up your web server:**
-   - Point your web server's document root to the `public/` directory.
-   - Or use PHP's built-in server:
      ```sh
-     php -S localhost:8000 -t public
+    composer serve
      ```
 
 ---
