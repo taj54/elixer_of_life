@@ -47,12 +47,15 @@ A simple PHP web application that helps users reflect on the qualities and habit
 ---
 ## Author
 
-- **Name:** taj <taj54>
+- **Name:** taj
+- **GitHub:** [taj54](https://github.com/taj54)
 - **Email:** [tajulislamj200@gmail.com]
 
 ---
 
 
 ## License
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
 
-This project is 
+---
