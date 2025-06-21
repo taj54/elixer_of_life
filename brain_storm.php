@@ -1,8 +1,6 @@
 <?php
 
-use function PHPSTORM_META\type;
 
-// require 'enum_elixir.php'; //
 class BrainStorm
 {
     public function __construct() {}
@@ -40,9 +38,3 @@ class BrainStorm
         return $return;
     }
 }
-
-
-
-
-// $test = new BrainStorm();
-// $test->standOutGrowd(false, false, [Elixir::learning, Elixir::practice]);
