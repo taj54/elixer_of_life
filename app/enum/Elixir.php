@@ -1,4 +1,5 @@
 <?php 
+namespace App\Enum;
 enum Elixir
 {
     case learning;
@@ -58,7 +59,7 @@ enum Elixir
             'Practice' => self::practice,
             'Accept Mistake' => self::acceptMistake,
             'Positive Mind' => self::positiveMind,
-            default => throw new InvalidArgumentException("Unknown elixir: $name"),
+            default => throw new \InvalidArgumentException("Unknown elixir: $name"),
         };
     }
 }

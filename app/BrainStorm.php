@@ -1,5 +1,5 @@
 <?php
-
+namespace App;
 
 class BrainStorm
 {
@@ -30,7 +30,7 @@ class BrainStorm
         foreach ($valueOfLife as $elixir) {
             try {
                 $return[] = $elixir->getDescription() . " - Reward: " . $elixir->getReward();
-            } catch (InvalidArgumentException $e) {
+            } catch (\InvalidArgumentException $e) {
                 $return[] = "Error: " . htmlspecialchars($e->getMessage());
             }
         }
