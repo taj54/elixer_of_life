@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\BrainStorm;
+use App\services\BrainStorm ;
 use App\Enum\Elixir;
 
 class HomeController extends BaseController

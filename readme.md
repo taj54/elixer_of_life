@@ -1,10 +1,16 @@
 # Elixir of Life
 
-A simple PHP web application that helps users reflect on the qualities and habits that lead to success. Users select their preferred work style (smart work, hard work, or both) and choose from a set of "elixirs" (positive habits or mindsets) to see personalized feedback and motivational messages.
+A simple PHP web application that encourages users to reflect on the qualities and habits that lead to success. Users select their preferred work style (smart work, hard work, or both) and choose from a set of "elixirs" (positive habits or mindsets) to receive personalized feedback and motivational messages.
 
 ---
 
-## File Index
+## Version
+
+**2.1**
+
+---
+
+## Updated File Structure
 
 - **index.php**  
   Main entry point. Displays the form for user input and shows results after submission.

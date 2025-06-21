@@ -70,3 +70,4 @@ $container->singleton('view', function ($app) {
 
 // Return the configured ViewFactory instance
 return $container->make('view');
+
