@@ -1,7 +1,7 @@
 <?php
 namespace App\services;
 
-class BrainStorm
+class BrainStormService
 {
     public function __construct() {}
     public function standOutGrowd(Bool $smartWork, Bool $hardWork, array $valueOfLife):array

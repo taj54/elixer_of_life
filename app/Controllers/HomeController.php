@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\services\BrainStorm ;
 use App\Enum\Elixir;
+use App\services\BrainStormService;
 
 class HomeController extends BaseController
 {
@@ -12,7 +13,7 @@ class HomeController extends BaseController
         if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $workTypes = isset($_POST['work-type']) ? $_POST['work-type'] : [];
             $elixirNames = isset($_POST['elixir']) ? $_POST['elixir'] : [];
-            $brainStorm = new BrainStorm();
+            $brainStorm = new BrainStormService();
             $result = $brainStorm->standOutGrowd(
                 in_array('smart', $workTypes),
                 in_array('hard', $workTypes),
